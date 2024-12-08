@@ -1,0 +1,384 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\classapp\\classall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\classapp\\classall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\pageapp\\pagetakeanswer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\pageapp\\pagetakeanswer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\pageapp\\pagetakeanswer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\pageapp\\pagetakeanswer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\pageapp\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\pageapp\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\pageapp\\pagech.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\pageapp\\pagech.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\pageapp\\pagech.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\pageapp\\pagech.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\pageapp\\pageshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\pageapp\\pageshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\pageapp\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\pageapp\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\pageapp\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\pageapp\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\pageapp\\pagelogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\pageapp\\pagelogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\pageapp\\pagelogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\pageapp\\pagelogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\pageapp\\pageshow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\pageapp\\pageshow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\antrentstat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A5F6542-0841-40C2-8643-5CF67D2851B1}|antrentStat\\antrentStat.csproj|solutionrelative:antrentstat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\pageapp\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\pageapp\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|c:\\users\\ilivic\\desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentstat\\terminal\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2DB2EB-9A69-4D9E-BE75-415EAB6D7618}|Terminal\\Terminal.csproj|solutionrelative:terminal\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassAll.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\ClassApp\\ClassAll.cs",
+              "RelativeDocumentMoniker": "antrentStat\\ClassApp\\ClassAll.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\ClassApp\\ClassAll.cs",
+              "RelativeToolTip": "antrentStat\\ClassApp\\ClassAll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwDwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:48:13.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PageApp\\PageLogin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageLogin.xaml.cs",
+              "RelativeDocumentMoniker": "antrentStat\\PageApp\\PageLogin.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageLogin.xaml.cs",
+              "RelativeToolTip": "antrentStat\\PageApp\\PageLogin.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:45:44.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\App.xaml.cs",
+              "RelativeDocumentMoniker": "antrentStat\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\App.xaml.cs",
+              "RelativeToolTip": "antrentStat\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:43:45.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\App.config",
+              "RelativeDocumentMoniker": "antrentStat\\App.config",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\App.config",
+              "RelativeToolTip": "antrentStat\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-08T13:43:42.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageCH.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageCH.xaml",
+              "RelativeDocumentMoniker": "Terminal\\PageApp\\PageCH.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageCH.xaml",
+              "RelativeToolTip": "Terminal\\PageApp\\PageCH.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T11:44:22.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageApp\\PageCH.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageCH.xaml.cs",
+              "RelativeDocumentMoniker": "Terminal\\PageApp\\PageCH.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageCH.xaml.cs",
+              "RelativeToolTip": "Terminal\\PageApp\\PageCH.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:47:37.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageMain.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageMain.xaml.cs",
+              "RelativeDocumentMoniker": "Terminal\\PageApp\\PageMain.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageMain.xaml.cs",
+              "RelativeToolTip": "Terminal\\PageApp\\PageMain.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:59:02.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageApp\\PageTakeAnswer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageTakeAnswer.xaml.cs",
+              "RelativeDocumentMoniker": "Terminal\\PageApp\\PageTakeAnswer.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageTakeAnswer.xaml.cs",
+              "RelativeToolTip": "Terminal\\PageApp\\PageTakeAnswer.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAcwEMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:59:34.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageTakeAnswer.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageTakeAnswer.xaml",
+              "RelativeDocumentMoniker": "Terminal\\PageApp\\PageTakeAnswer.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageTakeAnswer.xaml",
+              "RelativeToolTip": "Terminal\\PageApp\\PageTakeAnswer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:55:14.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\App.xaml",
+              "RelativeDocumentMoniker": "antrentStat\\App.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\App.xaml",
+              "RelativeToolTip": "antrentStat\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T13:52:18.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageMain.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageMain.xaml",
+              "RelativeDocumentMoniker": "antrentStat\\PageApp\\PageMain.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageMain.xaml",
+              "RelativeToolTip": "antrentStat\\PageApp\\PageMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T13:48:59.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageMain.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageMain.xaml.cs",
+              "RelativeDocumentMoniker": "antrentStat\\PageApp\\PageMain.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageMain.xaml.cs",
+              "RelativeToolTip": "antrentStat\\PageApp\\PageMain.xaml.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAA4wK8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:52:41.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageShow.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageShow.xaml",
+              "RelativeDocumentMoniker": "antrentStat\\PageApp\\PageShow.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageShow.xaml",
+              "RelativeToolTip": "antrentStat\\PageApp\\PageShow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:56:49.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PageLogin.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageLogin.xaml",
+              "RelativeDocumentMoniker": "antrentStat\\PageApp\\PageLogin.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageLogin.xaml",
+              "RelativeToolTip": "antrentStat\\PageApp\\PageLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T13:42:23.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PageMain.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageMain.xaml",
+              "RelativeDocumentMoniker": "Terminal\\PageApp\\PageMain.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\PageApp\\PageMain.xaml",
+              "RelativeToolTip": "Terminal\\PageApp\\PageMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T11:41:04.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "antrentStat\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\MainWindow.xaml.cs",
+              "RelativeToolTip": "antrentStat\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:50:38.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PageShow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageShow.xaml.cs",
+              "RelativeDocumentMoniker": "antrentStat\\PageApp\\PageShow.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\PageApp\\PageShow.xaml.cs",
+              "RelativeToolTip": "antrentStat\\PageApp\\PageShow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:21:24.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\App.xaml",
+              "RelativeDocumentMoniker": "Terminal\\App.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\App.xaml",
+              "RelativeToolTip": "Terminal\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T11:45:36.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Terminal\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\App.xaml.cs",
+              "RelativeToolTip": "Terminal\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:42:01.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Terminal\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\MainWindow.xaml",
+              "RelativeToolTip": "Terminal\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T11:37:30.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Terminal\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\Terminal\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Terminal\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:37:30.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "antrentStat\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ilivic\\Desktop\\\u0441\u043E\u043D\u043D\u0435\\antrentStat\\antrentStat\\MainWindow.xaml",
+              "RelativeToolTip": "antrentStat\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T10:50:39.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

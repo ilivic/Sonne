@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ABDModelContainer" CdmEntityContainer="ABDEntities">
+    <EntitySetMapping Name="academicApplicant">
+      <EntityTypeMapping TypeName="ABDModel.academicApplicant">
+        <MappingFragment StoreEntitySet="academicApplicant">
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="academic_id" ColumnName="academic_id" />
+          <ScalarProperty Name="app_id" ColumnName="app_id" />
+          <ScalarProperty Name="id_AA" ColumnName="id_AA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="academics">
+      <EntityTypeMapping TypeName="ABDModel.academics">
+        <MappingFragment StoreEntitySet="academics">
+          <ScalarProperty Name="info" ColumnName="info" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="id_academic" ColumnName="id_academic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="acceptance">
+      <EntityTypeMapping TypeName="ABDModel.acceptance">
+        <MappingFragment StoreEntitySet="acceptance">
+          <ScalarProperty Name="Color_id" ColumnName="Color_id" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="app_id" ColumnName="app_id" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="DateAnswer" ColumnName="DateAnswer" />
+          <ScalarProperty Name="id_acc" ColumnName="id_acc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="applicants">
+      <EntityTypeMapping TypeName="ABDModel.applicants">
+        <MappingFragment StoreEntitySet="applicants">
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="dateCreate" ColumnName="dateCreate" />
+          <ScalarProperty Name="Gender_id" ColumnName="Gender_id" />
+          <ScalarProperty Name="GPA" ColumnName="GPA" />
+          <ScalarProperty Name="isAchievement" ColumnName="isAchievement" />
+          <ScalarProperty Name="Color_id" ColumnName="Color_id" />
+          <ScalarProperty Name="IsTarget" ColumnName="IsTarget" />
+          <ScalarProperty Name="DateBirt" ColumnName="DateBirt" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="id_app" ColumnName="id_app" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Color">
+      <EntityTypeMapping TypeName="ABDModel.Color">
+        <MappingFragment StoreEntitySet="Color">
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Colo" ColumnName="Colo" />
+          <ScalarProperty Name="Id_color" ColumnName="Id_color" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gender">
+      <EntityTypeMapping TypeName="ABDModel.Gender">
+        <MappingFragment StoreEntitySet="Gender">
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="id_gender" ColumnName="id_gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ABDModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

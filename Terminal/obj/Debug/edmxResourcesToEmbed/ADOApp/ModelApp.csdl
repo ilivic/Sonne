@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ABDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ABDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="academicApplicant" EntityType="ABDModel.academicApplicant" />
+    <EntitySet Name="academics" EntityType="ABDModel.academics" />
+    <EntitySet Name="acceptance" EntityType="ABDModel.acceptance" />
+    <EntitySet Name="applicants" EntityType="ABDModel.applicants" />
+    <EntitySet Name="Color" EntityType="ABDModel.Color" />
+    <EntitySet Name="Gender" EntityType="ABDModel.Gender" />
+    <EntitySet Name="Users" EntityType="ABDModel.Users" />
+    <AssociationSet Name="FK_academicApplicant_academics" Association="ABDModel.FK_academicApplicant_academics">
+      <End Role="academics" EntitySet="academics" />
+      <End Role="academicApplicant" EntitySet="academicApplicant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_academicApplicant_applicants" Association="ABDModel.FK_academicApplicant_applicants">
+      <End Role="applicants" EntitySet="applicants" />
+      <End Role="academicApplicant" EntitySet="academicApplicant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_acceptance_applicants" Association="ABDModel.FK_acceptance_applicants">
+      <End Role="applicants" EntitySet="applicants" />
+      <End Role="acceptance" EntitySet="acceptance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_acceptance_Color" Association="ABDModel.FK_acceptance_Color">
+      <End Role="Color" EntitySet="Color" />
+      <End Role="acceptance" EntitySet="acceptance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_acceptance_Users" Association="ABDModel.FK_acceptance_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="acceptance" EntitySet="acceptance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_applicants_Color" Association="ABDModel.FK_applicants_Color">
+      <End Role="Color" EntitySet="Color" />
+      <End Role="applicants" EntitySet="applicants" />
+    </AssociationSet>
+    <AssociationSet Name="FK_applicants_Gender" Association="ABDModel.FK_applicants_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="applicants" EntitySet="applicants" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="academicApplicant">
+    <Key>
+      <PropertyRef Name="id_AA" />
+    </Key>
+    <Property Name="id_AA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="app_id" Type="Int32" Nullable="false" />
+    <Property Name="academic_id" Type="Int32" Nullable="false" />
+    <Property Name="result" Type="Double" Nullable="false" />
+    <NavigationProperty Name="academics" Relationship="ABDModel.FK_academicApplicant_academics" FromRole="academicApplicant" ToRole="academics" />
+    <NavigationProperty Name="applicants" Relationship="ABDModel.FK_academicApplicant_applicants" FromRole="academicApplicant" ToRole="applicants" />
+  </EntityType>
+  <EntityType Name="academics">
+    <Key>
+      <PropertyRef Name="id_academic" />
+    </Key>
+    <Property Name="id_academic" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="academicApplicant" Relationship="ABDModel.FK_academicApplicant_academics" FromRole="academics" ToRole="academicApplicant" />
+  </EntityType>
+  <EntityType Name="acceptance">
+    <Key>
+      <PropertyRef Name="id_acc" />
+    </Key>
+    <Property Name="id_acc" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateAnswer" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="User_id" Type="Int32" Nullable="false" />
+    <Property Name="app_id" Type="Int32" Nullable="false" />
+    <Property Name="Result" Type="Boolean" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Color_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="applicants" Relationship="ABDModel.FK_acceptance_applicants" FromRole="acceptance" ToRole="applicants" />
+    <NavigationProperty Name="Color" Relationship="ABDModel.FK_acceptance_Color" FromRole="acceptance" ToRole="Color" />
+    <NavigationProperty Name="Users" Relationship="ABDModel.FK_acceptance_Users" FromRole="acceptance" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="applicants">
+    <Key>
+      <PropertyRef Name="id_app" />
+    </Key>
+    <Property Name="id_app" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DateBirt" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IsTarget" Type="Boolean" Nullable="false" />
+    <Property Name="Color_id" Type="Int32" Nullable="false" />
+    <Property Name="isAchievement" Type="Boolean" Nullable="false" />
+    <Property Name="GPA" Type="Double" Nullable="false" />
+    <Property Name="Gender_id" Type="Int32" Nullable="false" />
+    <Property Name="dateCreate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Phone" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="academicApplicant" Relationship="ABDModel.FK_academicApplicant_applicants" FromRole="applicants" ToRole="academicApplicant" />
+    <NavigationProperty Name="acceptance" Relationship="ABDModel.FK_acceptance_applicants" FromRole="applicants" ToRole="acceptance" />
+    <NavigationProperty Name="Color" Relationship="ABDModel.FK_applicants_Color" FromRole="applicants" ToRole="Color" />
+    <NavigationProperty Name="Gender" Relationship="ABDModel.FK_applicants_Gender" FromRole="applicants" ToRole="Gender" />
+  </EntityType>
+  <EntityType Name="Color">
+    <Key>
+      <PropertyRef Name="Id_color" />
+    </Key>
+    <Property Name="Id_color" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Colo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Info" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="acceptance" Relationship="ABDModel.FK_acceptance_Color" FromRole="Color" ToRole="acceptance" />
+    <NavigationProperty Name="applicants" Relationship="ABDModel.FK_applicants_Color" FromRole="Color" ToRole="applicants" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="id_gender" />
+    </Key>
+    <Property Name="id_gender" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="applicants" Relationship="ABDModel.FK_applicants_Gender" FromRole="Gender" ToRole="applicants" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Login" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="acceptance" Relationship="ABDModel.FK_acceptance_Users" FromRole="Users" ToRole="acceptance" />
+  </EntityType>
+  <Association Name="FK_academicApplicant_academics">
+    <End Type="ABDModel.academics" Role="academics" Multiplicity="1" />
+    <End Type="ABDModel.academicApplicant" Role="academicApplicant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="academics">
+        <PropertyRef Name="id_academic" />
+      </Principal>
+      <Dependent Role="academicApplicant">
+        <PropertyRef Name="academic_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_academicApplicant_applicants">
+    <End Type="ABDModel.applicants" Role="applicants" Multiplicity="1" />
+    <End Type="ABDModel.academicApplicant" Role="academicApplicant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="applicants">
+        <PropertyRef Name="id_app" />
+      </Principal>
+      <Dependent Role="academicApplicant">
+        <PropertyRef Name="app_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_acceptance_applicants">
+    <End Type="ABDModel.applicants" Role="applicants" Multiplicity="1" />
+    <End Type="ABDModel.acceptance" Role="acceptance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="applicants">
+        <PropertyRef Name="id_app" />
+      </Principal>
+      <Dependent Role="acceptance">
+        <PropertyRef Name="app_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_acceptance_Color">
+    <End Type="ABDModel.Color" Role="Color" Multiplicity="1" />
+    <End Type="ABDModel.acceptance" Role="acceptance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Color">
+        <PropertyRef Name="Id_color" />
+      </Principal>
+      <Dependent Role="acceptance">
+        <PropertyRef Name="Color_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_acceptance_Users">
+    <End Type="ABDModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="ABDModel.acceptance" Role="acceptance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="acceptance">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_applicants_Color">
+    <End Type="ABDModel.Color" Role="Color" Multiplicity="1" />
+    <End Type="ABDModel.applicants" Role="applicants" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Color">
+        <PropertyRef Name="Id_color" />
+      </Principal>
+      <Dependent Role="applicants">
+        <PropertyRef Name="Color_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_applicants_Gender">
+    <End Type="ABDModel.Gender" Role="Gender" Multiplicity="1" />
+    <End Type="ABDModel.applicants" Role="applicants" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="id_gender" />
+      </Principal>
+      <Dependent Role="applicants">
+        <PropertyRef Name="Gender_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

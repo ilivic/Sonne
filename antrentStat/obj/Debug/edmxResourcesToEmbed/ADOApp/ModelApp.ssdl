@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ABDModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="academicApplicant">
+    <Key>
+      <PropertyRef Name="id_AA" />
+    </Key>
+    <Property Name="id_AA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="app_id" Type="int" Nullable="false" />
+    <Property Name="academic_id" Type="int" Nullable="false" />
+    <Property Name="result" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="academics">
+    <Key>
+      <PropertyRef Name="id_academic" />
+    </Key>
+    <Property Name="id_academic" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="info" Type="text" />
+  </EntityType>
+  <EntityType Name="acceptance">
+    <Key>
+      <PropertyRef Name="id_acc" />
+    </Key>
+    <Property Name="id_acc" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateAnswer" Type="date" Nullable="false" />
+    <Property Name="User_id" Type="int" Nullable="false" />
+    <Property Name="app_id" Type="int" Nullable="false" />
+    <Property Name="Result" Type="bit" Nullable="false" />
+    <Property Name="Comment" Type="text" />
+    <Property Name="Color_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="applicants">
+    <Key>
+      <PropertyRef Name="id_app" />
+    </Key>
+    <Property Name="id_app" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DateBirt" Type="date" Nullable="false" />
+    <Property Name="IsTarget" Type="bit" Nullable="false" />
+    <Property Name="Color_id" Type="int" Nullable="false" />
+    <Property Name="isAchievement" Type="bit" Nullable="false" />
+    <Property Name="GPA" Type="float" Nullable="false" />
+    <Property Name="Gender_id" Type="int" Nullable="false" />
+    <Property Name="dateCreate" Type="date" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="Color">
+    <Key>
+      <PropertyRef Name="Id_color" />
+    </Key>
+    <Property Name="Id_color" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Colo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Info" Type="text" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="id_gender" />
+    </Key>
+    <Property Name="id_gender" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Login" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_academicApplicant_academics">
+    <End Role="academics" Type="Self.academics" Multiplicity="1" />
+    <End Role="academicApplicant" Type="Self.academicApplicant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="academics">
+        <PropertyRef Name="id_academic" />
+      </Principal>
+      <Dependent Role="academicApplicant">
+        <PropertyRef Name="academic_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_academicApplicant_applicants">
+    <End Role="applicants" Type="Self.applicants" Multiplicity="1" />
+    <End Role="academicApplicant" Type="Self.academicApplicant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="applicants">
+        <PropertyRef Name="id_app" />
+      </Principal>
+      <Dependent Role="academicApplicant">
+        <PropertyRef Name="app_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_acceptance_applicants">
+    <End Role="applicants" Type="Self.applicants" Multiplicity="1" />
+    <End Role="acceptance" Type="Self.acceptance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="applicants">
+        <PropertyRef Name="id_app" />
+      </Principal>
+      <Dependent Role="acceptance">
+        <PropertyRef Name="app_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_acceptance_Color">
+    <End Role="Color" Type="Self.Color" Multiplicity="1" />
+    <End Role="acceptance" Type="Self.acceptance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Color">
+        <PropertyRef Name="Id_color" />
+      </Principal>
+      <Dependent Role="acceptance">
+        <PropertyRef Name="Color_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_acceptance_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="acceptance" Type="Self.acceptance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id_user" />
+      </Principal>
+      <Dependent Role="acceptance">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_applicants_Color">
+    <End Role="Color" Type="Self.Color" Multiplicity="1" />
+    <End Role="applicants" Type="Self.applicants" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Color">
+        <PropertyRef Name="Id_color" />
+      </Principal>
+      <Dependent Role="applicants">
+        <PropertyRef Name="Color_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_applicants_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="1" />
+    <End Role="applicants" Type="Self.applicants" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="id_gender" />
+      </Principal>
+      <Dependent Role="applicants">
+        <PropertyRef Name="Gender_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ABDModelContainer">
+    <EntitySet Name="academicApplicant" EntityType="Self.academicApplicant" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="academics" EntityType="Self.academics" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="acceptance" EntityType="Self.acceptance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="applicants" EntityType="Self.applicants" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Color" EntityType="Self.Color" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Gender" EntityType="Self.Gender" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_academicApplicant_academics" Association="Self.FK_academicApplicant_academics">
+      <End Role="academics" EntitySet="academics" />
+      <End Role="academicApplicant" EntitySet="academicApplicant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_academicApplicant_applicants" Association="Self.FK_academicApplicant_applicants">
+      <End Role="applicants" EntitySet="applicants" />
+      <End Role="academicApplicant" EntitySet="academicApplicant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_acceptance_applicants" Association="Self.FK_acceptance_applicants">
+      <End Role="applicants" EntitySet="applicants" />
+      <End Role="acceptance" EntitySet="acceptance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_acceptance_Color" Association="Self.FK_acceptance_Color">
+      <End Role="Color" EntitySet="Color" />
+      <End Role="acceptance" EntitySet="acceptance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_acceptance_Users" Association="Self.FK_acceptance_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="acceptance" EntitySet="acceptance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_applicants_Color" Association="Self.FK_applicants_Color">
+      <End Role="Color" EntitySet="Color" />
+      <End Role="applicants" EntitySet="applicants" />
+    </AssociationSet>
+    <AssociationSet Name="FK_applicants_Gender" Association="Self.FK_applicants_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="applicants" EntitySet="applicants" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

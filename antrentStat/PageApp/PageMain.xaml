@@ -1,0 +1,70 @@
+﻿<Page x:Class="antrentStat.PageApp.PageMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:antrentStat.PageApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageMain">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header=" + ">
+                <MenuItem Header="выгрузить принятых" Click="ClEventExportPulse"/>
+                <MenuItem Header="выгрузить не принятых" Click="ClEventExportMainus"/>
+                <MenuItem Header="выгрузить рассматривающихся" Click="ClEventChec"/>
+                <MenuItem Header="выгрузить общую информацию" Click="ClEventAll"/>
+                <MenuItem Header="выход" Click="ClEventExit"/>
+            </MenuItem>
+        </Menu>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label Content="пойск"/>
+            <TextBox x:Name="TxtSerch" PreviewTextInput="TxtSerch_PreviewTextInput"/>
+            <Button Content="по ФИО" Click="FiltreFName"/>
+            <Button Content="по оценке" Click="FiltreGPA"/>
+            <Button Content="по дате" Click="FiltreDate"/>
+            <ComboBox x:Name="CMBTarget" SelectionChanged="CMBTarget_SelectionChanged">
+                <ComboBoxItem Content="Целевеки"/>
+                <ComboBoxItem Content="спортивники"/>
+                <ComboBoxItem Content="Целевеки и спортивники"/>
+                <ComboBoxItem Content="все"/>
+            </ComboBox>
+            <Label x:Name="LblCounter"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1" Grid.Column="2">
+            <ListView x:Name="ListApp">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel>
+                            <Label Content="{Binding FullName}" ContentStringFormat="ФИО: {0}" Background="{Binding Color.Colo}"/>
+                            <Label Content="{Binding Gender.title}" ContentStringFormat="пол: {0}"/>
+                            <Label Content="{Binding GPA}" ContentStringFormat="средний бал: {0}"/>
+                            <Label Content="{Binding DateBirt}" ContentStringFormat="дата рождения: {0}"/>
+                            <Label Content="{Binding dateCreate}" ContentStringFormat="дата заявления: {0}"/>
+                            <Label Content="{Binding Phone}" ContentStringFormat="телефон: {0}"/>
+                        </StackPanel>
+                            <StackPanel>
+                                <Button Content="подробнее" Click="ClEventInfo"/>
+                                <Button Content="Принять на следующий этап" Click="ClEventPulse"/>
+                                <Button Content="Отказать" Click="ClEventMainus"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+    </Grid>
+</Page>

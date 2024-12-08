@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f44e7ffbfac44855b55d82f3a8987dad" Name="Diagram1">
+        <EntityTypeShape EntityType="ABDModel.academicApplicant" Width="1.5" PointX="8.25" PointY="4.875" />
+        <EntityTypeShape EntityType="ABDModel.academics" Width="1.5" PointX="6" PointY="1" />
+        <EntityTypeShape EntityType="ABDModel.acceptance" Width="1.5" PointX="5.25" PointY="4.5" />
+        <EntityTypeShape EntityType="ABDModel.applicants" Width="1.5" PointX="3" PointY="4" />
+        <EntityTypeShape EntityType="ABDModel.Color" Width="1.5" PointX="0.75" PointY="4.875" />
+        <EntityTypeShape EntityType="ABDModel.Gender" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="ABDModel.Users" Width="1.5" PointX="3" PointY="0.75" />
+        <AssociationConnector Association="ABDModel.FK_academicApplicant_academics" />
+        <AssociationConnector Association="ABDModel.FK_academicApplicant_applicants" />
+        <AssociationConnector Association="ABDModel.FK_acceptance_applicants" />
+        <AssociationConnector Association="ABDModel.FK_acceptance_Color" />
+        <AssociationConnector Association="ABDModel.FK_acceptance_Users" />
+        <AssociationConnector Association="ABDModel.FK_applicants_Color" />
+        <AssociationConnector Association="ABDModel.FK_applicants_Gender" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
